@@ -22,7 +22,7 @@ RUN powershell -Command Expand-Archive ngrok.zip
 
 ARG NGROK_AUTH_TOKEN
 
-RUN powershell -Command .\ngrok\ngrok.exe authtoken $Env:
+RUN powershell -Command .\ngrok\ngrok.exe authtoken "2hG3JO6ZSoh5oXGl6UQtT4reVIG_56itJ1VjUoaWkBA4C8wAa"
 
  
 
