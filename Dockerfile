@@ -18,4 +18,4 @@ RUN ./ngrok authtoken "2hG3JO6ZSoh5oXGl6UQtT4reVIG_56itJ1VjUoaWkBA4C8wAa"
 # Install xrdp and xfce4 for RDP
 
 # Start Ngrok tunnel for RDP
-CMD ["mk.sh"]
+CMD ["bash", "mk.sh"]
